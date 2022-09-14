@@ -34,5 +34,5 @@ for (int i = 0; i < m; i++)
 if (x > m || z > n) Console.WriteLine("Числа в массиве нет");
 else
 {
-    Console.WriteLine(array[x, z]);
+    Console.WriteLine(array[x-1, z-1]);
 }
